@@ -1,0 +1,85 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+:root {
+    /* Colors */
+    --primary-color: #333333;
+    --secondary-color: #ffffff;
+    --logo-color: #28a745;
+    --hero-color: #e9e9e9;
+
+    /* Backgrounds */
+    --main-background: #ffffff;
+    --first-additional-background: #f4f4f4;
+    --second-additional-background: #28a745;
+    --third-additional-background: #0284d0;
+    --footer-background: #333333;
+
+    /* Overlays */
+    --poppup-overlay: rgba(40, 167, 69, 0.9);
+
+    /* Buttons */
+    --first-btn-color: #28a745;
+    --second-btn-color: #0284d0;
+    --hover-first-btn-color: #28aa64;
+    --hover-second-btn-color: #045dc5;
+
+    /* Links */
+    --link-hover-focus-color: #28a745;
+
+    /* Cubic-Bezier */
+    --time-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--primary-color);
+    background-color: var(--main-background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li {
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    width: 1360px;
+    padding: 0;
+    margin: 0 auto;
+}
